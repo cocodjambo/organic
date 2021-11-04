@@ -1,0 +1,83 @@
+.footer{
+    border-top: 1px solid $gray;
+    margin-top: 85px;
+    .logo{
+        width: 179px;
+        height: 48px;
+        margin-top: 20px;
+    }
+}
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.75rem;
+    &-item{
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 66.4%;
+    }
+}
+
+.box-footer-list{
+    list-style-type: none;
+    font-size: 1.12rem;
+    line-height: 2.7;
+   &__link{
+    text-decoration: none;
+    color: $gray;
+   }
+   &__tel{
+    font-size: 1.68rem;
+   }
+}
+
+.box-footer-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    &__link{
+        width: 48px;
+        height: 48px;
+        background-repeat: no-repeat;
+        border: 2px solid $gray;
+        border-radius: 100%;
+        display: block;
+        background-position: center center;
+        opacity: 0.8;
+        transition: 0.2s ease;
+        margin-top: 1.25rem;
+    }
+    &__vk{
+       background-size: 27px 18px;
+       background-image: url(../../../img/vk.svg);
+    }
+    &__instagramm{
+        background-size: 18px 18px;
+        background-image: url(../../../img/instagram.svg);
+    }
+    &__facebook{
+        background-size: 27px 18px;
+        background-image: url(../../../img/facebook.svg);
+    }
+}
+
+.box-copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top:4.3rem;
+    &__copy{
+        opacity: 0.6;
+    }
+    &__text{
+        color: $gray2;
+    }
+    &__link{
+        text-decoration: none;
+        color: $gray2;
+        transition: 0.3s ease;
+        &:hover{
+           color: $gray;
+        }
+    }
+}
